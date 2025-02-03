@@ -51,4 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
     let dogLine = dogsArray.join(""); // Samler alle hundenes navne uden mellemrum
     console.log("Opgave 6", dogLine)
 
+
+    //Opgave 7a
+    let mangoIndex = fruitsArray.indexOf("Mango") //.indexOf("Mango") returnerer indexet for "Mango" i fruitsArray.
+    console.log("Opgave 7a", mangoIndex);
+
 }) // ends DOMContentLoaded
