@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
     Resultatet bliver et array, som du kan bruge videre i din kode. */
     console.log("Opgave 1", newNumbers)
 
-    //Opgave 2
 
+    //Opgave 2
+    catsArray.push("Sniffles"); /* Med denne ændring vil catsArray nu indeholde katten "Sniffles" som det sidste element. */
 
 }) // ends DOMContentLoaded
