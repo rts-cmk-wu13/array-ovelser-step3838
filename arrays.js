@@ -31,4 +31,9 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Opgave 3b", isBaxterInDogs)
 
 
+    //Opgave 4a
+    let foundCat = catsArray.find(cat => cat === "Bagheera") /* Hvis "Bagheera" findes i catsArray, vil den blive udskrevet i konsollen, ellers vil undefined blive vist. */
+    console.log("Opgave 4a", foundCat)
+
+
 }) // ends DOMContentLoaded
