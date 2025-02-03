@@ -41,4 +41,10 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Opgave 4b", findSalem)
 
 
+    //Opgave 5
+    let multipliedNumbers = numbersArray.map(number => number * 3); /* .map() itererer over hvert element i numbersArray.
+    Den udfører en funktion på hvert element (i dette tilfælde ganges tallet med 3).
+    Den returnerer et nyt array med de ændrede værdier, men ændrer ikke det originale array. */
+    console.log("Opgave 5", multipliedNumbers)
+
 }) // ends DOMContentLoaded
