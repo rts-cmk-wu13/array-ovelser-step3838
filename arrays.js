@@ -56,4 +56,9 @@ document.addEventListener("DOMContentLoaded", function () {
     let mangoIndex = fruitsArray.indexOf("Mango") //.indexOf("Mango") returnerer indexet for "Mango" i fruitsArray.
     console.log("Opgave 7a", mangoIndex);
 
+
+     //Opgave 7b
+     let blueberryIndex = fruitsArray.indexOf("Blåbær") //Hvis "Mango" ikke findes i arrayet, returneres -1.
+     console.log("Opgave 7b", blueberryIndex);
+
 }) // ends DOMContentLoaded
