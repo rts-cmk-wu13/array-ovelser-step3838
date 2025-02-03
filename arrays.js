@@ -61,4 +61,12 @@ document.addEventListener("DOMContentLoaded", function () {
      let blueberryIndex = fruitsArray.indexOf("Blåbær") //Hvis "Mango" ikke findes i arrayet, returneres -1.
      console.log("Opgave 7b", blueberryIndex);
 
+
+     //Opgave 8
+     let pollyIndex = dogsArray.indexOf("Polly");
+     if (pollyIndex !== -1) {
+        dogsArray.splice(pollyIndex, 1); // Fjern "Polly" fra arrayet
+     }
+     console.log("Opgave 8", dogsArray)
+
 }) // ends DOMContentLoaded
