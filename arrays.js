@@ -19,4 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
     catsArray.push("Sniffles"); /* Med denne ændring vil catsArray nu indeholde katten "Sniffles" som det sidste element. */
     console.log("Opgave 2", catsArray)
 
+
+    //Opgave 3a
+    let isTrixieInDogs = dogsArray.includes("Trixie") /* Denne kode vil udskrive false i konsollen, da "Trixie" ikke er til stede i dogsArray. 
+    Hvis du ændrer dogsArray og tilføjer "Trixie", vil det udskrive true i stedet. */
+    console.log("Opgave 3a", isTrixieInDogs)
+
 }) // ends DOMContentLoaded
