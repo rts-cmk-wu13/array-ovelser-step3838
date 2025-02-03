@@ -12,4 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     console.log("Opgave 1", newNumbers)
 
+    //Opgave 2
+    
+
 }) // ends DOMContentLoaded
