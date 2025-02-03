@@ -36,4 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Opgave 4a", foundCat)
 
 
+    //Opgave 4b
+    let findSalem = catsArray.find(cat => cat === "Salem")
+    console.log("Opgave 4b", findSalem)
+
+
 }) // ends DOMContentLoaded
