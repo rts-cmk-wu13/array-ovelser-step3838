@@ -69,4 +69,9 @@ document.addEventListener("DOMContentLoaded", function () {
      }
      console.log("Opgave 8", dogsArray)
 
+
+     //Ektra opgave
+     let sum = numbersArray.reduce((total, number) => total + number, 0)
+     console.log("Ektra opgave" ,sum);
+
 }) // ends DOMContentLoaded
