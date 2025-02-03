@@ -17,5 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //Opgave 2
     catsArray.push("Sniffles"); /* Med denne ændring vil catsArray nu indeholde katten "Sniffles" som det sidste element. */
+    console.log("Opgave 2", catsArray)
 
 }) // ends DOMContentLoaded
