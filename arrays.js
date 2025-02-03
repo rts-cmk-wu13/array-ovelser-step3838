@@ -25,4 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
     Hvis du ændrer dogsArray og tilføjer "Trixie", vil det udskrive true i stedet. */
     console.log("Opgave 3a", isTrixieInDogs)
 
+
+    //Opgave 3b
+    let isBaxterInDogs = dogsArray.includes("Baxter")
+    console.log("Opgave 3b", isBaxterInDogs)
+
+
 }) // ends DOMContentLoaded
