@@ -47,4 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
     Den returnerer et nyt array med de ændrede værdier, men ændrer ikke det originale array. */
     console.log("Opgave 5", multipliedNumbers)
 
+    //Opgave 6
+    let dogLine = dogsArray.join(""); // Samler alle hundenes navne uden mellemrum
+    console.log("Opgave 6", dogLine)
+
 }) // ends DOMContentLoaded
